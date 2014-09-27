@@ -1,0 +1,4 @@
+44c44
+< log4j.appender.cleanerAppender.File=log-cleaner.log
+---
+> log4j.appender.cleanerAppender.File=${kafka.logs.dir}/log-cleaner.log

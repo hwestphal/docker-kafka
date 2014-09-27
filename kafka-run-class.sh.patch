@@ -1,0 +1,6 @@
+26c26,28
+< LOG_DIR=$base_dir/logs
+---
+> if [ -z "$LOG_DIR" ]; then
+>   LOG_DIR=$base_dir/logs
+> fi
